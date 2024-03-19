@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  
+    <ion-title class="ion-text-center">
+      Commande
+    </ion-title>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item> 
+    <ion-label position="fixed">Nom   :</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="fixed">E-mail  :</ion-label>
+    <ion-input type="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="fixed">Telephone  :</ion-label>
+    <ion-input type="tel"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Sexe  :</ion-label>
+    <ion-select>
+      <ion-select-option value="homme">Homme</ion-select-option>
+      <ion-select-option value="femme">Femme</ion-select-option>
+    </ion-select>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label>Ville   :</ion-label>
+    <ion-select>
+      <ion-select-option value="douala">Douala</ion-select-option>
+      <ion-select-option value="yaounde">Yaoundé</ion-select-option>
+    </ion-select>
+    <ion-label>Qte   :</ion-label>
+    <ion-select>
+      <ion-select-option value="1">1</ion-select-option>
+      <ion-select-option value="2">2</ion-select-option>
+      <ion-select-option value="3">3</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label position="fixed">Message  :</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+  <ion-row>
+    <ion-col>
+      
+       </ion-col>
+      
+    <ion-col  size="6">
+      <ion-button  size="small"  >Annuler</ion-button>
+      <ion-button  size="small"    >Envoyer</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content> 
